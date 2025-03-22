@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kaelynn Amodia</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="imgs/kuromifavicon.gif" />
+
+    <!-- swiper css for carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- montserrat font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <div class="navbar">
+      <a class="logo" href="index.html">KAELYNN AMODIA</a>
+      <div class="nav-links">
+        <a class="nav-link" href="index.html">home</a>
+        <a class="nav-link" href="projects.html">projects</a>
+        <a class="nav-link" href="contact.html">contact</a>
+        <a
+          class="nav-link"
+          href="files/kaelynn-amodia-resume.pdf"
+          target="_blank"
+          >resume</a
+        >
+      </div>
+    </div>
+
+    <!-- intro -->
+    <div class="intro">
+      <div class="left-side">
+        <p id="name">hi. i'm kaelynn amodia.</p>
+        <p id="desc">game designer & web developer</p>
+      </div>
+      <div class="right-side">
+        <img id="solopic" src="imgs/solopic.jpg" alt="picture of kaelynn" />
+      </div>
+    </div>
+
+    <!-- about me -->
+    <div class="about-me">
+      <p id="about-title">about me.</p>
+      <p id="about-text">
+        <span>Hello!</span> I am delighted to meet you! My name is Kaelynn
+        Amodia, and I am pursuing a degree in Game Design & Development at
+        Rochester Institute of Technology. Growing up, my interests and hobbies
+        have always flourished; fashion, art, music, dancing, coding, writing--
+        each one a small piece of who I am today. But one activity stood out
+        from the rest. From mashing buttons on my controller playing Tekken 5,
+        to spending countless hours trying to 100% NieR:Automata, I had grown to
+        love the boundless creativity and immersive worlds that video games had
+        to offer.<br /><br />I aspire to combine my newfound skills in coding
+        and technology with the boundless depths of my imagination to create
+        games that immerse players into worlds beyond their wildest dreams. I
+        want to recreate the fascination I experienced as a child, to transport
+        others into worlds where imagination reigns supreme. This is what drives
+        me forward on this exciting journey of game creation.
+      </p>
+    </div>
+
+    <!-- featured projects -->
+    <div class="featured-projects">
+      <p id="projects-title">featured projects.</p>
+      <a id="projects-link" href="projects.html"
+        ><span>view all projects</span> <i class="fa-solid fa-arrow-right"></i
+      ></a>
+
+      <!-- project carousel -->
+      <div class="carousel-body">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <!-- slides -->
+            <div class="swiper-slide" data-url="project-pages/lfg.html">
+              <img src="imgs/lfg.png" alt="lfg home screen" />
+              <div class="title"><span>Looking for Group</span></div>
+            </div>
+            <div class="swiper-slide" data-url="project-pages/pinbrawl.html">
+              <img
+                src="imgs/pinbrawl.png"
+                alt="pinbrawl title screen"
+                href="project-pages/pinbrawl.html"
+              />
+              <div class="title"><span>PIN-BRAWL</span></div>
+            </div>
+            <div class="swiper-slide" data-url="project-pages/feverish.html">
+              <img src="imgs/feverish.png" alt="feverish title screen" />
+              <div class="title"><span>FEVERISH</span></div>
+            </div>
+          </div>
+          <!-- pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- nav buttons -->
+          <div class="swiper-button-next">
+            <i class="fas fa-chevron-right"></i>
+            <!-- <i class="fa-solid fa-arrow-right"></i> -->
+          </div>
+          <div class="swiper-button-prev">
+            <i class="fas fa-chevron-left"></i>
+            <!-- <i class="fa-solid fa-arrow-left"></i> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+      <div class="content">
+        <div id="copyright">
+          <i class="fa-regular fa-copyright"></i> Kaelynn Amodia 2025
+        </div>
+        <div class="socials">
+          <a
+            class="social-link"
+            href="https://www.linkedin.com/in/kaelynn-jill-amodia-25067121b/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            class="social-link"
+            href="https://github.com/nnyleak"
+            target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="src/index.js"></script>
+  </body>
+</html>
