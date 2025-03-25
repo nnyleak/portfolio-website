@@ -195,36 +195,39 @@ html {
   border-radius: 14px;
 }
 
-.swiper-button-next::after, .swiper-button-prev::after {
-    display: none;
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
 }
 
-.swiper-button-next, .swiper-button-prev {
-    font-size: 30px;
-    color: lightgrey;
-    padding: 10px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 10;
-    height: 30px;
-    width: 30px;
-    transition: all 0.3s ease-in-out;
+.swiper-button-next,
+.swiper-button-prev {
+  font-size: 30px;
+  color: lightgrey;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  height: 30px;
+  width: 30px;
+  transition: all 0.3s ease-in-out;
 }
 
 .swiper-button-next {
-    right: 30px;
+  right: 30px;
 }
 
 .swiper-button-prev {
-    left: 30px;
+  left: 30px;
 }
 
-.swiper-button-next:hover, .swiper-button-prev:hover {
-    color: grey;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: grey;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 /* ---FOOTER CSS--- */
