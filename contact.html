@@ -45,29 +45,74 @@
     </div>
 
     <!-- contact form -->
-    <section class="formcarry-container">
-      <form action="https://formcarry.com/s/WqEqfvjtAUP" method="POST" enctype="multipart/form-data">
-        
-        <div class="formcarry-block">
-          <label for="fc-generated-1-name">Full Name</label>
-          <input type="text" name="name" id="fc-generated-1-name" placeholder="Your first and last name" />
+    <div class="section">
+      <div class="wrapper">
+        <p class="section-title contact">contact me.</p>
+        <div class="formcarry-container">
+          <form
+            action="https://formcarry.com/s/WqEqfvjtAUP"
+            method="POST"
+            enctype="multipart/form-data"
+          >
+            <div class="formcarry-block name">
+              <label for="fc-generated-1-name">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="fc-generated-1-name"
+                placeholder="Your first and last name"
+              />
+            </div>
+
+            <div class="formcarry-block email">
+              <label for="fc-generated-1-email">E-mail</label>
+              <input
+                type="email"
+                name="email"
+                id="fc-generated-1-email"
+                placeholder="john@doe.com"
+              />
+            </div>
+
+            <div class="formcarry-block message">
+              <label for="fc-generated-1-message">Message</label>
+              <textarea
+                name="message"
+                name="message"
+                id="fc-generated-1-message"
+                placeholder="Enter your message..."
+              ></textarea>
+            </div>
+
+            <div class="formcarry-block Send">
+              <button type="submit">Send</button>
+            </div>
+          </form>
         </div>
-        
-        <div class="formcarry-block">
-          <label for="fc-generated-1-email">Your Email Address</label>
-          <input type="email" name="email" id="fc-generated-1-email" placeholder="john@doe.com" />
+      </div>
+
+      <!-- footer -->
+      <div class="footer">
+        <div class="content">
+          <div id="copyright">
+            <i class="fa-regular fa-copyright"></i> Kaelynn Amodia 2025
+          </div>
+          <div class="socials">
+            <a
+              class="social-link"
+              href="https://www.linkedin.com/in/kaelynn-jill-amodia-25067121b/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a
+              class="social-link"
+              href="https://github.com/nnyleak"
+              target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
         </div>
-        
-        <div class="formcarry-block">
-          <label for="fc-generated-1-message">Your message</label>
-          <textarea name="message" name="message" id="fc-generated-1-message" placeholder="Enter your message..."></textarea>
-        </div>
-        
-        <div class="formcarry-block">  
-          <button type="submit">Send</button>
-        </div>
-      
-      </form>
-    </section>
+      </div>
+    </div>
   </body>
 </html>

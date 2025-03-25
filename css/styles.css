@@ -1,19 +1,15 @@
-/* color palette:
-    RED: #A52A2A
-    GREEN: #8F9779
-    TAN: #D2B48C
-    BEIGE: #F2EBE2
-*/
-
 html {
   scroll-behavior: smooth;
 }
 
 * {
   font-family: "Montserrat", sans-serif;
+  font-weight: 500;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ---NAVBAR CSS--- */
@@ -48,6 +44,11 @@ html {
   text-decoration: none;
   color: black;
   font-weight: bold;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 40px;
 }
 
 /* ---INTRO CSS--- */
@@ -101,11 +102,6 @@ html {
   gap: 40px;
 }
 
-#about-title {
-  font-weight: bold;
-  font-size: 40px;
-}
-
 #about-text {
   width: 1000px;
   font-size: 18px;
@@ -132,7 +128,7 @@ html {
 
 #projects-link {
   color: grey;
-  padding: 0;
+  padding: 5px;
   text-decoration: none;
   font-size: 16px;
   transition-duration: 0.4s;
@@ -140,12 +136,6 @@ html {
 
 #projects-link:hover {
   color: black;
-}
-
-#projects-title {
-  font-size: 40px;
-  font-weight: bold;
-  margin-bottom: 5px;
 }
 
 /* project carousel */
@@ -251,7 +241,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1000px;
+  width: 100vw;
   padding: 50px;
 }
 
