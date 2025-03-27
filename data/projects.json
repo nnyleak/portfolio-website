@@ -1,0 +1,30 @@
+[
+  {
+    "title": "FEVERISH",
+    "image": "imgs/feverish.png",
+    "description": "A text-based horror-adventure RPG created in Twine!",
+    "tags": ["twine"],
+    "link": "feverish.html"
+  },
+  {
+    "title": "PIN-BRAWL",
+    "image": "imgs/pinbrawl.png",
+    "description": "An arcade-style multiplayer platform fighting game!",
+    "tags": ["unity", "c#"],
+    "link": "pinbrawl.html"
+  },
+  {
+    "title": "Looking for Group",
+    "image": "imgs/lfg.png",
+    "description": "lfg description",
+    "tags": ["figma", "html", "css", "javascript"],
+    "link": "lfg.html"
+  },
+  {
+    "title": "placeholder",
+    "image": "imgs/lfg.png",
+    "description": "placeholder description",
+    "tags": ["testtag"],
+    "link": "lfg.html"
+  }
+]
