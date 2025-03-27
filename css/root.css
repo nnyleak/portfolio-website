@@ -1,0 +1,108 @@
+:root {
+  --background-light: white;
+  --background-dark: black;
+  --text-light: white;
+  --text-dark: black;
+  --accent-color: grey;
+  --secondary-accent-color: lightgrey;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: var(--background-light);
+  color: var(--text-dark);
+}
+
+/* ---NAVBAR CSS--- */
+.navbar {
+  background: var(--background-dark);
+
+  overflow: hidden;
+  padding: 16px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-link,
+.logo {
+  color: var(--text-light);
+
+  padding: 0px 20px;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+.nav-link {
+  font-size: 16px;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.nav-link:hover,
+.logo:hover {
+  color: var(--accent-color);
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+/* ---FOOTER CSS--- */
+.footer {
+  background-color: var(--background-dark);
+  color: var(--accent-color);
+
+  height: fit-content;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 50px;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.social-link {
+  color: var(--accent-color);
+
+  text-decoration: none;
+  font-size: 25px;
+  transition-duration: 0.4s;
+}
+
+.social-link:hover {
+  color: var(--text-light);
+}

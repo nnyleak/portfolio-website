@@ -1,0 +1,184 @@
+/* ---INTRO CSS--- */
+.intro {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+#name {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+#desc {
+  color: var(--accent-color);
+
+  font-size: 22px;
+  margin: 0px;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin-top: 71px;
+}
+
+.right-side {
+  margin-top: 71px;
+}
+
+#solopic {
+  height: 75vh;
+  border-radius: 10px;
+}
+
+/* ---ABOUT ME CSS--- */
+.about-me {
+  background-color: var(--background-dark);
+  color: var(--text-light);
+
+  height: fit-content;
+  text-align: justify;
+  padding: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  gap: 40px;
+}
+
+#about-text {
+  width: 1000px;
+  font-size: 18px;
+}
+
+#about-text span {
+  font-weight: bold;
+}
+
+/* ---FEATURED PROJECTS CSS--- */
+.featured-projects {
+  height: fit-content;
+  justify-items: center;
+  padding: 100px 0px;
+}
+
+.featured-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#projects-link {
+  color: grey;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+#projects-link:hover {
+  /* color: black; */
+  color: var(--text-dark);
+}
+
+/* project carousel */
+.carousel-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  min-height: fit-content;
+  z-index: -1;
+}
+
+.swiper {
+  width: 100%;
+  padding: 50px 0px;
+}
+
+.swiper-slide {
+  position: relative;
+  width: 450px;
+  aspect-ratio: 16/9;
+  border-radius: 10px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  border-radius: inherit;
+  user-select: none;
+}
+
+.swiper-slide > .title {
+  width: max-content;
+  text-align: center;
+  padding: 10px 5px;
+  transition: all 0.5s linear;
+}
+
+.swiper-slide > .title > span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--secondary-accent-color);
+
+  width: 25px;
+  border-radius: 14px;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  display: none;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--secondary-accent-color);
+
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  height: 30px;
+  width: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.swiper-button-next {
+  right: 30px;
+}
+
+.swiper-button-prev {
+  left: 30px;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: var(--accent-color);
+
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
