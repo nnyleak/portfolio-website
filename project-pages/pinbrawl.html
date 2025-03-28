@@ -8,16 +8,15 @@
     <!-- favicon -->
     <link rel="icon" type="image/x-icon" href="../imgs/kuromifavicon.gif" />
 
+    <!-- swiper css for carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     <!-- css -->
     <link rel="stylesheet" href="../css/root.css" />
-
-    <!-- montserrat font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="../css/project-page.css" />
 
     <!-- fontawesome cdn -->
     <link
@@ -43,6 +42,90 @@
       </div>
     </div>
 
+    <!-- content -->
+    <div class="project-container">
+      <p class="section-title">PIN-BRAWL</p>
+      <div class="carousel">
+        <!-- project carousel -->
+        <div class="carousel-body">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <!-- slides -->
+              <div class="swiper-slide" data-url="project-pages/lfg.html">
+                <img src="../imgs/lfg.png" alt="lfg home screen" />
+                <div class="title"><span>Looking for Group</span></div>
+              </div>
+              <div class="swiper-slide" data-url="project-pages/pinbrawl.html">
+                <img
+                  src="../imgs/pinbrawl.png"
+                  alt="pinbrawl title screen"
+                  href="project-pages/pinbrawl.html"
+                />
+                <div class="title"><span>PIN-BRAWL</span></div>
+              </div>
+              <div class="swiper-slide" data-url="project-pages/feverish.html">
+                <img src="../imgs/feverish.png" alt="feverish title screen" />
+                <div class="title"><span>FEVERISH</span></div>
+              </div>
+            </div>
+            <!-- pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- nav buttons -->
+            <div class="swiper-button-next">
+              <i class="fas fa-chevron-right"></i>
+              <!-- <i class="fa-solid fa-arrow-right"></i> -->
+            </div>
+            <div class="swiper-button-prev">
+              <i class="fas fa-chevron-left"></i>
+              <!-- <i class="fa-solid fa-arrow-left"></i> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- project details -->
+      <div class="details-grid">
+        <div class="left">
+          <p class="section-title">about this project.</p>
+          <p class="description">
+            This is a brief description of the project, explaining what it does
+            and its purpose.
+          </p>
+
+          <p class="section-title">what i learned.</p>
+          <ul class="description">
+            <li>list here</li>
+            <li>list here</li>
+            <li>list here</li>
+          </ul>
+        </div>
+
+        <div class="right">
+          <p class="section-title">additional info.</p>
+          <div class="project-info">
+            <p><span>Type:</span> Academic Team Project</p>
+            <p><span>Skills:</span> Unity, C#, Aseprite</p>
+          </div>
+
+          <!-- Buttons -->
+          <div class="buttons">
+            <a
+              href="https://fmpo.itch.io/pin-brawl"
+              target="_blank"
+              class="btn live"
+              >PLAY GAME</a
+            >
+            <a
+              href="https://github.com/your-repo"
+              target="_blank"
+              class="btn github"
+              >GITHUB</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- footer -->
     <div class="footer">
       <div class="content">
@@ -65,5 +148,9 @@
         </div>
       </div>
     </div>
+
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../src/index.js" defer></script>
   </body>
 </html>
