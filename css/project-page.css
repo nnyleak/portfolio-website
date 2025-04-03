@@ -95,11 +95,12 @@
 
 /* details */
 .details-grid {
-  width: 75vw;
+  width: 60vw;
   display: grid;
   grid-template-columns: 70% 30%;
   align-items: start;
-  gap: 20px;
+  justify-content: center;
+  gap: 40px;
 }
 
 .details-grid .section-title {
