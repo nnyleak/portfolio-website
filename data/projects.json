@@ -1,49 +1,49 @@
 [
   {
     "title": "FEVERISH",
-    "image": "imgs/feverish.png",
+    "image": "imgs/feverish/feverish.png",
     "description": "A text-based horror-adventure RPG created in Twine!",
     "tags": ["twine"],
     "link": "project-pages/feverish.html"
   },
   {
     "title": "PIN-BRAWL",
-    "image": "imgs/pinbrawl.png",
+    "image": "imgs/pinbrawl/pinbrawl.png",
     "description": "An arcade-style multiplayer platform fighting game!",
     "tags": ["unity", "c#"],
     "link": "project-pages/pinbrawl.html"
   },
   {
     "title": "Looking for Group",
-    "image": "imgs/lfg.png",
+    "image": "imgs/lfg/lfg.png",
     "description": "lfg description",
     "tags": ["figma", "html", "css", "javascript"],
     "link": "project-pages/lfg.html"
   },
   {
     "title": "Simple Rhythm Game",
-    "image": "imgs/lfg.png",
+    "image": "imgs/rhythmgame/",
     "description": "Just a simple rhythm game made in Unity!",
     "tags": ["unity", "c#"],
     "link": "project-pages/rhythmgame.html"
   },
   {
     "title": "Moca's Maid Cafe",
-    "image": "imgs/lfg.png",
+    "image": "imgs/moca/",
     "description": "A cute clicker game where you manage a maid cafe!",
     "tags": ["html", "css", "javascript"],
     "link": "project-pages/moca.html"
   },
   {
     "title": "Audio Visualizer",
-    "image": "imgs/lfg.png",
+    "image": "imgs/audiovisualizer/",
     "description": "An app where users can visuazize the frequencies of a song!",
     "tags": ["html", "css", "javascript", "api"],
     "link": "project-pages/audiovisualizer.html"
   },
   {
     "title": "Genshin Impact Character Database",
-    "image": "imgs/lfg.png",
+    "image": "imgs/genshindb/",
     "description": "A site where users can sort through all the characters in Genshin Impact!",
     "tags": ["html", "css", "javascript", "api"],
     "link": "project-pages/genshindb.html"
