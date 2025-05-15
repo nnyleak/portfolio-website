@@ -21,10 +21,31 @@
     "link": "project-pages/lfg.html"
   },
   {
-    "title": "placeholder",
+    "title": "Simple Rhythm Game",
     "image": "imgs/lfg.png",
-    "description": "placeholder description",
-    "tags": ["testtag"],
-    "link": "project-pages/lfg.html"
+    "description": "Just a simple rhythm game made in Unity!",
+    "tags": ["unity", "c#"],
+    "link": "project-pages/rhythmgame.html"
+  },
+  {
+    "title": "Moca's Maid Cafe",
+    "image": "imgs/lfg.png",
+    "description": "A cute clicker game where you manage a maid cafe!",
+    "tags": ["html", "css", "javascript"],
+    "link": "project-pages/moca.html"
+  },
+  {
+    "title": "Audio Visualizer",
+    "image": "imgs/lfg.png",
+    "description": "An app where users can visuazize the frequencies of a song!",
+    "tags": ["html", "css", "javascript", "api"],
+    "link": "project-pages/audiovisualizer.html"
+  },
+  {
+    "title": "Genshin Impact Character Database",
+    "image": "imgs/lfg.png",
+    "description": "A site where users can sort through all the characters in Genshin Impact!",
+    "tags": ["html", "css", "javascript", "api"],
+    "link": "project-pages/genshindb.html"
   }
 ]
