@@ -21,13 +21,6 @@
     "link": "project-pages/lfg.html"
   },
   {
-    "title": "Simple Rhythm Game",
-    "image": "imgs/rhythmgame/rhythmgame.png",
-    "description": "Just a simple rhythm game made in Unity!",
-    "tags": ["unity", "c#"],
-    "link": "project-pages/rhythmgame.html"
-  },
-  {
     "title": "Moca's Maid Cafe",
     "image": "imgs/moca/moca.png",
     "description": "A cute clicker game where you manage a maid cafe!",
