@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Webiste</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="../imgs/kuromifavicon.gif" />
+
+    <!-- swiper css for carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/root.css" />
+    <link rel="stylesheet" href="../css/project-page.css" />
+
+    <!-- fontawesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <div class="navbar">
+      <a class="logo" href="../index.html">KAELYNN AMODIA</a>
+      <div class="nav-links">
+        <a class="nav-link" href="../index.html">home</a>
+        <a class="nav-link" href="../projects.html">projects</a>
+        <a class="nav-link" href="../contact.html">contact</a>
+        <a
+          class="nav-link"
+          href="../files/kaelynn-amodia-resume.pdf"
+          target="_blank"
+          >resume</a
+        >
+      </div>
+    </div>
+
+    <!-- content -->
+    <div class="project-container">
+      <p class="section-title">Portfolio Website</p>
+
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <!-- slides -->
+          <div class="swiper-slide">
+            <img src="../imgs/portfoliosite/portfoliosite.PNG" alt="portfolio site home screen" />
+          </div>
+          <div class="swiper-slide">
+            <img src="../imgs/portfoliosite/portfoliosite-1.PNG" alt="portfolio code screenshot" />
+          </div>
+        </div>
+        <!-- pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- navigation -->
+        <div class="swiper-button-prev">
+          <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="swiper-button-next">
+          <i class="fas fa-chevron-right"></i>
+        </div>
+      </div>
+
+      <!-- project details -->
+      <div class="details-grid">
+        <div class="left">
+          <p class="section-title">about this project.</p>
+          <p class="description">
+            I designed and developed this very site from scratch using HTML,
+            CSS, and JavaScript. I wanted to create a space that showcased my
+            work in game development, web design, and UI/UX, with a focus on
+            clean visuals, intuitive navigation, and a layout that reflects my
+            style and personality.
+          </p>
+
+          <!-- <p class="section-title">what i learned.</p>
+        <ul class="description">
+          <li>list here</li>
+          <li>list here</li>
+          <li>list here</li>
+        </ul> -->
+        </div>
+
+        <div class="right">
+          <p class="section-title">additional info.</p>
+          <div class="project-info">
+            <p><span>Type:</span> Personal Project</p>
+            <p><span>Skills:</span> HTML, CSS, JavaScript</p>
+          </div>
+
+          <!-- buttons -->
+          <div class="buttons">
+            <a href="https://github.com/nnyleak/portfolio-website" target="_blank" class="btn live">GITHUB</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+      <div class="content">
+        <div id="copyright">
+          <i class="fa-regular fa-copyright"></i> Kaelynn Amodia 2025
+        </div>
+        <div class="socials">
+          <a
+            class="social-link"
+            href="https://www.linkedin.com/in/kaelynn-jill-amodia-25067121b/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            class="social-link"
+            href="https://github.com/nnyleak"
+            target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../src/project-page.js" defer></script>
+  </body>
+</html>

@@ -10,7 +10,7 @@
     "title": "PIN-BRAWL",
     "image": "imgs/pinbrawl/pinbrawl.png",
     "description": "An arcade-style multiplayer platform fighting game!",
-    "tags": ["unity", "c#"],
+    "tags": ["unity", "c#", "ui/ux", "aseprite"],
     "link": "project-pages/pinbrawl.html"
   },
   {
@@ -40,5 +40,12 @@
     "description": "A site where users can sort through all the characters in Genshin Impact!",
     "tags": ["html", "css", "javascript", "api"],
     "link": "project-pages/genshindb.html"
+  },
+  {
+    "title": "Portfolio Website",
+    "image": "imgs/portfoliosite/portfoliosite.png",
+    "description": "I coded this very site!",
+    "tags": ["html", "css", "javascript"],
+    "link": "project-pages/portfoliosite.html"
   }
 ]
