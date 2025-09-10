@@ -1,6 +1,7 @@
 # kae's portfolio
 this site serves as my personal portfolio website where i show any projects, experiments and ongoing work as a game designer + web developer!<br>
-built with **html**, **css**, and **javascript**.
+built with **html**, **css**, and **javascript**.<br>
+live site → [kae's portfolio](https://nnyleak.netlify.app/)
 
 ## ᯓ★ (current) features
 - simple layout with html + css (non-responsive)
