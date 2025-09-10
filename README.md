@@ -15,7 +15,7 @@ built with **html**, **css**, and **javascript**.
 ## notes
 this is a beginner version of my portfolio. i made it as a starting point and for practice, just to have somewhere i can showcase my work. i plan to expand and refine it as i grow.
 
-## future plans
-- make projects pages dynamic (no more manual creation)
+## future improvements
+- make project pages dynamic (no more manual creation)
 - responsive layout, animations + transitions for smoother browsing
 - possibly rebuild with react or another framework to scale
