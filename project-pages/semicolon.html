@@ -1,134 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>semicolon;</title>
 
-    <!-- favicon -->
-    <link rel="icon" type="image/x-icon" href="../imgs/kuromifavicon.gif" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>semicolon;</title>
 
-    <!-- swiper css for carousel -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
+  <!-- favicon -->
+  <link rel="icon" type="image/x-icon" href="../imgs/kuromifavicon.gif" />
 
-    <!-- css -->
-    <link rel="stylesheet" href="../css/root.css" />
-    <link rel="stylesheet" href="../css/project-page.css" />
+  <!-- swiper css for carousel -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-    <!-- fontawesome cdn -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    />
-  </head>
+  <!-- css -->
+  <link rel="stylesheet" href="../css/root.css" />
+  <link rel="stylesheet" href="../css/project-page.css" />
 
-  <body>
-    <!-- navbar -->
-    <div class="navbar">
-      <a class="logo" href="../index.html">KAELYNN AMODIA</a>
-      <div class="nav-links">
-        <a class="nav-link" href="../index.html">home</a>
-        <a class="nav-link" href="../projects.html">projects</a>
-        <a class="nav-link" href="../contact.html">contact</a>
-        <a
-          class="nav-link"
-          href="../files/kaelynn-amodia-resume.pdf"
-          target="_blank"
-          >resume</a
-        >
+  <!-- fontawesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+
+<body>
+  <!-- navbar -->
+  <div class="navbar">
+    <a class="logo" href="../index.html">KAELYNN AMODIA</a>
+    <div class="nav-links">
+      <a class="nav-link" href="../index.html">home</a>
+      <a class="nav-link" href="../projects.html">projects</a>
+      <a class="nav-link" href="../contact.html">contact</a>
+      <a class="nav-link" href="../files/kaelynn-amodia-resume.pdf" target="_blank">resume</a>
+    </div>
+  </div>
+
+  <!-- content -->
+  <div class="project-container">
+    <p class="section-title">semicolon;</p>
+
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <!-- slides -->
+        <div class="swiper-slide">
+          <img src="../imgs/semicolon/semicolon.PNG" alt="semicolon home screen" />
+        </div>
+        <div class="swiper-slide">
+          <img src="../imgs/semicolon/semicolon-1.PNG" alt="semicolon blog page" />
+        </div>
+        <div class="swiper-slide">
+          <img src="../imgs/semicolon/semicolon-2.PNG" alt="semicolon create post page" />
+        </div>
+        <div class="swiper-slide">
+          <img src="../imgs/semicolon/semicolon-3.PNG" alt="semicolon post page" />
+        </div>
+      </div>
+      <!-- pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- navigation -->
+      <div class="swiper-button-prev">
+        <i class="fas fa-chevron-left"></i>
+      </div>
+      <div class="swiper-button-next">
+        <i class="fas fa-chevron-right"></i>
       </div>
     </div>
 
-    <!-- content -->
-    <div class="project-container">
-      <p class="section-title">semicolon;</p>
+    <!-- project details -->
+    <div class="details-grid">
+      <div class="left">
+        <p class="section-title">about this project.</p>
+        <p class="description">semicolon; is a simple, minimalistic blog app built using Node.js, Express, and EJS,
+          styled using Bootstrap and custom CSS. It features a cozy, diary-inspired interface
+          where users can create and edit blog posts through a simple CRUD system. <br /><br />
+          Journaling has always been one of my quiet comforts, which strongly influenced the look and feel of this project. I like building projects that reflect who I am, and
+          journaling has always helped me organize my thoughts without feeling pressured to act upon them immediately. It's a way of pausing life for a moment; to process, breathe, then continue. Much like how a
+          semicolon breaks up a sentence without ending it. I wanted this site to capture that feeling.</p>
 
-      <div class="swiper">
-        <div class="swiper-wrapper">
-          <!-- slides -->
-          <div class="swiper-slide">
-            <img src="../imgs/feverish.png" alt="feverish title screen" />
-          </div>
-        </div>
-        <!-- pagination -->
-        <div class="swiper-pagination"></div>
-        <!-- navigation -->
-        <div class="swiper-button-prev">
-          <i class="fas fa-chevron-left"></i>
-        </div>
-        <div class="swiper-button-next">
-          <i class="fas fa-chevron-right"></i>
-        </div>
-      </div>
-
-      <!-- project details -->
-      <div class="details-grid">
-        <div class="left">
-          <p class="section-title">about this project.</p>
-          <p class="description">Project description</p>
-
-          <!-- <p class="section-title">what i learned.</p>
+        <!-- <p class="section-title">what i learned.</p>
         <ul class="description">
           <li>list here</li>
           <li>list here</li>
           <li>list here</li>
         </ul> -->
+      </div>
+
+      <div class="right">
+        <p class="section-title">additional info.</p>
+        <div class="project-info">
+          <p><span>Type:</span> Personal Solo Project</p>
+          <p><span>Skills:</span> Node.js, Express, EJS, Figma</p>
         </div>
 
-        <div class="right">
-          <p class="section-title">additional info.</p>
-          <div class="project-info">
-            <p><span>Type:</span> Personal Project</p>
-            <p><span>Skills:</span> Node.js, Express, EJS, Figma</p>
-          </div>
-
-          <!-- buttons -->
-          <div class="buttons">
-            <a
-              href="https://semicolon-oal4.onrender.com/"
-              target="_blank"
-              class="btn live"
-              >VIEW SITE</a
-            >
-            <a
-              href="https://github.com/nnyleak/blog-app"
-              target="_blank"
-              class="btn live"
-              >GITHUB</a
-            >
-          </div>
+        <!-- buttons -->
+        <div class="buttons">
+          <a href="https://semicolon-oal4.onrender.com/" target="_blank" class="btn live">VIEW SITE</a>
+          <a href="https://github.com/nnyleak/blog-app" target="_blank" class="btn live">GITHUB</a>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- footer -->
-    <div class="footer">
-      <div class="content">
-        <div id="copyright">
-          <i class="fa-regular fa-copyright"></i> Kaelynn Amodia 2025
-        </div>
-        <div class="socials">
-          <a
-            class="social-link"
-            href="https://www.linkedin.com/in/kaelynn-jill-amodia-25067121b/"
-            target="_blank"
-            ><i class="fa-brands fa-linkedin"></i
-          ></a>
-          <a
-            class="social-link"
-            href="https://github.com/nnyleak"
-            target="_blank"
-            ><i class="fa-brands fa-github"></i
-          ></a>
-        </div>
+  <!-- footer -->
+  <div class="footer">
+    <div class="content">
+      <div id="copyright">
+        <i class="fa-regular fa-copyright"></i> Kaelynn Amodia 2025
+      </div>
+      <div class="socials">
+        <a class="social-link" href="https://www.linkedin.com/in/kaelynn-jill-amodia-25067121b/" target="_blank"><i
+            class="fa-brands fa-linkedin"></i></a>
+        <a class="social-link" href="https://github.com/nnyleak" target="_blank"><i class="fa-brands fa-github"></i></a>
       </div>
     </div>
+  </div>
 
-    <!-- js -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="../src/project-page.js" defer></script>
-  </body>
+  <!-- js -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="../src/project-page.js" defer></script>
+</body>
+
 </html>

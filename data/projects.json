@@ -1,10 +1,10 @@
 [
   {
-    "title": "FEVERISH",
-    "image": "imgs/feverish/feverish.png",
-    "description": "A text-based horror-adventure RPG created in Twine!",
-    "tags": ["twine", "creative writing"],
-    "link": "project-pages/feverish.html"
+    "title": "semicolon;",
+    "image": "imgs/semicolon/semicolon.png",
+    "description": "A simple blog app for users to express their thoughts!",
+    "tags": ["node.js", "express", "ejs"],
+    "link": "project-pages/semicolon.html"
   },
   {
     "title": "PIN-BRAWL",
@@ -16,9 +16,16 @@
   {
     "title": "Looking for Group",
     "image": "imgs/lfg/lfg.png",
-    "description": "lfg description",
+    "description": "A site for creatives to connect with others and collaborate on projects!",
     "tags": ["figma", "html", "css", "javascript"],
     "link": "project-pages/lfg.html"
+  },
+  {
+    "title": "FEVERISH",
+    "image": "imgs/feverish/feverish.png",
+    "description": "A text-based horror-adventure RPG created in Twine!",
+    "tags": ["twine", "creative writing"],
+    "link": "project-pages/feverish.html"
   },
   {
     "title": "Moca's Maid Cafe",
@@ -47,12 +54,5 @@
     "description": "I coded this very site!",
     "tags": ["html", "css", "javascript"],
     "link": "project-pages/portfoliosite.html"
-  },
-  {
-    "title": "semicolon;",
-    "image": "imgs/portfoliosite/portfoliosite.png",
-    "description": "something",
-    "tags": ["node.js", "express", "ejs"],
-    "link": "project-pages/semicolon.html"
   }
 ]
